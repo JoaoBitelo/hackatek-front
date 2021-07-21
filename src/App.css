@@ -14,3 +14,7 @@
 .events-container h4 {
     margin-bottom: 1em;
 }
+
+.event-page-container {
+    background-image: url("./content/images/pattern.png");
+}
