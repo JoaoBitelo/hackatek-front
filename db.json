@@ -1,0 +1,109 @@
+{
+    "Filter": {
+        "activity": [
+            "COVID-19",
+            "Campanha do agasalho",
+            "Mundo",
+            "Crianças e Adolescentes",
+            "Favela",
+            "Periferias",
+            "Arrecadação de Alimentos"
+        ],
+        "group": [
+            "Diversos",
+            "Profissionais da sáude",
+            "Governo Estadual",
+            "Governo Federal",
+            "Jovens",
+            "Food Fighters",
+            "ONG",
+            "Religião",
+            "Umbanda"
+        ]
+    },
+    "event": [
+        {
+            "id": "1",
+            "name": "Reforço do atendimento à COVID-19",
+            "description": "A Secretaria Estadual da Saúde do Rio Grande do Sul (SES/RS) abriu um canal para cadastro de voluntários em atividades de enfretamento à pandemia do coronavírus no Estado. São oferecidas possibilidades de voluntariado a profissionais da sáude e de outras categorias profissionais.",
+            "date": "2021-07-23",
+            "activity": ["COVID-19"],
+            "group": ["Profissionais da sáude", "Diversos"],
+            "image": "https://www.jornaldocomercio.com/_midias/jpg/2020/04/15/ma150420_mascara39-9037259.jpg",
+            "links": [
+                "http://www.defesacivil.pr.gov.br/Pagina/Voluntario-COVID19"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Campanha do Agasalho 2021",
+            "description": "Chegou a hora de aquecer milhares de pessoas em situação de vulnerabilidade. Participe da Campanha do Agasalho. A Campanha do Agasalho, realizada pelo programa Pátria Voluntária, termina na próxima sexta-feira (02). No Distrito Federal, são 20 pontos de coleta, entre ministérios, Associação Atlética do Banco do Brasil, que se estende para as AABB ́s de várias localidades do país, e agências da Caixa Econômica Federal, do DF e das regiões sul e sudeste do Brasil.",
+            "date": "2021-07-24",
+            "activity": ["Campanha do agasalho"],
+            "group": ["Diversos", "Governo Estadual", "Governo Federal"],
+            "image": "https://cdn.v2v.net/0x0/filters:format(jpeg):quality(80):fill(white,true)/2ce44694-7818-4917-9dfd-bec406ef2fc8.jpeg?v=63792189162",
+            "links": [
+                "https://patriavoluntaria.org/pt-BR/pages/915d0219-4a86-40d2-b766-b3ef5a66743f"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Mais Água Mais Vida",
+            "description": "O Pátria Voluntária conta com a sua solidariedade e a sua contribuição, pois a sede tem pressa, não pode esperar. Nos ajude nessa missão. Participe da campanha de doação de água potável.",
+            "date": "2021-07-25",
+            "activity": ["Doe Água", "Mundo"],
+            "group": ["Diversos", "Governo Federal"],
+            "image": "https://cdn.v2v.net/0x0/filters:format(jpeg):quality(80):fill(white,true)/b935847c-72bd-4a9f-8755-51c5e03fd56c.png?v=63783812797",
+            "links": [
+                "https://patriavoluntaria.org/pt-BR/aggregators/0b53fb85-dc90-4b40-96b2-09dd86ecb8cb",
+                "https://patriavoluntaria.org/pt-BR/aggregators/16b54ed3-3a4e-45bd-84ed-067e6c0747d7"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Tamo Junto UNICEF (#tmjUNICEF)",
+            "description": "O UNICEF lança, esta semana, a segunda edição do Tamo Junto UNICEF (#tmjUNICEF), programa de voluntariado digital voltado a adolescentes e jovens de 16 a 24 anos. Lançado em 2020, o programa tem como objetivo engajar a juventude em prol dos direitos de crianças e adolescentes. Nesta segunda edição, o programa mantém o foco em voluntariado digital e os voluntários poderão, também, participar de projetos do UNICEF sobre saúde mental, desenvolvimento profissional e comunicação.",
+            "date": "2021-07-26",
+            "activity": ["Crianças e Adolescentes"],
+            "group": ["Jovens"],
+            "image": "https://www.unicef.org/brazil/sites/unicef.org.brazil/files/styles/press_release_feature/public/tmjUNICEF-stickers-inscricoes-encerradas-01.png?itok=lvUOnXZ4",
+            "links": [
+                "https://www.unicef.org/brazil/comunicados-de-imprensa/unicef-lanca-segunda-edicao-do-tmjunicef-programa-de-voluntariado-digital"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Conselho Brasileiro de Voluntariado Empresarial (CBVE)",
+            "description": "O Conselho Brasileiro de Voluntariado Empresarial (CBVE) promoverá na próxima quinta-feira (04/06), das 10 às 12 horas, o evento “Pela Voz das Favelas e Periferias: Como o Voluntariado Corporativo pode Fortalecer o Enfrentamento ao Covid-19”, com transmissão ao vivo pelo LinkedIn e Facebook. Gratuita e aberta ao público, está é uma das várias ações desenvolvidas pelo CBVE no âmbito da campanha #CBVEcontraoCorona, e tem o objetivo promover o encontro das principais organizações de representação de favelas e periferias do país, com os principais atores dos programas de voluntariado corporativo em âmbito nacional – empresas associadas e referenciadas no CBVE.",
+            "date": "2021-07-27",
+            "activity": ["Favela", "Periferias"],
+            "group": ["Diversos"],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_8gbSmikQQH8sqBUVU5QabsCzNdI3bbQGvJJolhkVNOW2JwQKsNwtFhdU23x1XnM6kSM&usqp=CAU",
+            "links": [
+                "https://www.filantropia.ong/informacao/evento_coloca_debate_voluntariado-corporativo-em-favelas-e-periferias-no-pos-covid-19"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "ONG Cozinheiros do Bem – Food Fighters",
+            "description": "Na próxima sexta-feira (26), dia em que a cidade de Porto Alegre celebrará seus 249 anos de fundação, a ONG Cozinheiros do Bem – Food Fighters, em parceria com outras entidades beneficentes da capital, realiza um evento online para arrecadar alimentos para os mais necessitados em meio a pandemia do coronavírus. “Os pedidos de socorro da população que passa fome em Porto Alegre são frequentes, logo nós nos unimos a sindicatos, frentes políticas e alguns projetos sociais para arrecadar alimentos e fundos para quem mais precisa de apoio e comida nas mais diversas comunidade e projetos aqui da capital”, afirma Júlio Ritta, criador da ONG Cozinheiros do Bem – Food Fighters, ao explicar as motivações da ação.",
+            "date": "2021-07-28",
+            "activity": ["Arrecadação de Alimentos"],
+            "group": ["Diversos", "Food Fighters", "ONG"],
+            "image": "https://guaiba.com.br/wp-content/uploads/2021/03/154709443_2840092312974675_5951429070165973836_o-696x522.jpg",
+            "links": [
+                "https://guaiba.com.br/2021/03/23/evento-no-aniversario-de-porto-alegre-arrecada-alimentos-para-populacao-vulneravel-em-drive-thru/"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Grupo de Trabalho Voluntário da Associação Espiritualista Caboclo Urubatan, ",
+            "description": "Os ensinamentos de caridade transmitidos pelos Pretos Velhos, Caboclos, Baianos e outras entidades do terreiro de Umbanda deram a fundamentação para o surgimento do Grupo de Trabalho Voluntário da Associação Espiritualista Caboclo Urubatan, que foi criado em 2014 para desenvolver campanhas temporárias de arrecadação de mantimentos e outras necessidades, a fim de atender a diferentes projetos sociais a cada mês. O objetivo não é utilizar a religião para influenciar as pessoas, mas sim, colocar em prática a filosofia umbandista da caridade para prestar apoio a diversos públicos fragilizados, fortalecendo, também, a religião afro-brasileira. As ações envolvem dezenas de participantes e estão abertas a qualquer pessoa disposta a fazer o bem.",
+            "date": "2021-07-29",
+            "activity": ["Arrecadação de Alimentos"],
+            "group": ["Diversos", "Religião", "Umbanda"],
+            "image": "https://www.aecurubatan.org.br/wp-content/uploads/2017/07/visita_casa_florescer-300x225.jpg",
+            "links": ["https://www.aecurubatan.org.br/projeto/voluntariado/"]
+        }
+    ]
+}
