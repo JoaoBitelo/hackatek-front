@@ -7,8 +7,14 @@ function App() {
     return (
         <div className="App">
             <Header></Header>
-            <CardsContainer></CardsContainer>
-            <CardsContainer></CardsContainer>
+            <CardsContainer
+                hasIcons={true}
+                title="Ações perto de você esse mês"
+            ></CardsContainer>
+            <CardsContainer
+                hasIcons={false}
+                title="Encontre ações solidárias de acordo com a sua causa"
+            ></CardsContainer>
         </div>
     );
 }
