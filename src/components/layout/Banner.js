@@ -1,32 +1,48 @@
 import React from "react";
-import { Jumbotron, Container, Image, Row, Col } from "react-bootstrap";
+import {
+    Jumbotron,
+    Container,
+    Image,
+    Row,
+    Col,
+    Breadcrumb,
+} from "react-bootstrap";
 import image from "../../content/images/mulher_de_mascara_falando.png";
+import title from "../../content/images/O Voluntariado na pandemia.svg";
+import subtitle from "../../content/images/Group.svg";
 
 function Banner() {
-  return ( 
-    <Container className="event-page-container">
-      <Row>
-        <Col>
-          <Jumbotron fluid>
-            <div className="pages-path">
-              <p> Home {">"} Eventos e Ações Solidárias </p>
-            </div>
-            <div className="big-description">
-              <p> O Voluntariado na pandemia </p>
-            </div>
-            <div className="app-name">
-              <p> I care a lot. </p>
-            </div>
-          </Jumbotron>
-        </Col>
-        <Col>
-          <div className="container-2">
-            <Image src={ image } fluid/>
-          </div>
-        </Col>
-      </Row>
-    </Container>
-  )
+    return (
+        <Jumbotron fluid className="event-page-container">
+            <Container>
+                <Row>
+                    <Col>
+                        <Breadcrumb className="mt-3">
+                            <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+                            <Breadcrumb.Item href="#">
+                                Eventos e Ações Solidárias
+                            </Breadcrumb.Item>
+                        </Breadcrumb>
+                        <div className="title-container">
+                            <Image
+                                src={title}
+                                className="banner-title mt-3"
+                            ></Image>
+                            <Image
+                                src={subtitle}
+                                className="banner-subtitle"
+                            ></Image>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className="container-2">
+                            <Image src={image} fluid />
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </Jumbotron>
+    );
 }
 
 export default Banner;

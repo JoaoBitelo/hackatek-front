@@ -7,14 +7,22 @@
     margin-right: 1em;
 }
 
+.title-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .events-container h4 {
     margin-top: 2em;
 }
 
-.events-container h4 {
-    margin-bottom: 1em;
+.events-container {
+    margin-bottom: 2em;
 }
 
 .event-page-container {
     background-image: url("./content/images/pattern.png");
+    background-size: cover;
+    height: 40vh;
 }
