@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import CardEvent from "./Card";
 
 const limitToReturn = 4;
@@ -36,7 +37,12 @@ function CardsContainer(props) {
             <Row md={4} className="g-4">
                 {cards.map((item, idx) => (
                     <Col>
-                        <CardEvent item={item} hasIcons={hasIcons}></CardEvent>
+                        <Link to="/event" className="link">
+                            <CardEvent
+                                item={item}
+                                hasIcons={hasIcons}
+                            ></CardEvent>
+                        </Link>
                     </Col>
                 ))}
             </Row>

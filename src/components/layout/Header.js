@@ -9,7 +9,6 @@ import {
 } from "react-bootstrap";
 import image from "../../content/images/circleLogo.png";
 import ButtonGeneric from "./Button";
-import { Button } from "react-bootstrap";
 
 function Header() {
     return (
@@ -21,7 +20,7 @@ function Header() {
                 }}
             >
                 <Navbar.Brand
-                    href="#home"
+                    href="/"
                     style={{
                         flex: 1,
                         justifyContent: "center",

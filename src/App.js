@@ -1,22 +1,21 @@
 import "./App.css";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Header from "./components/layout/Header";
-import Banner from "./components/layout/Banner";
-import CardsContainer from "./components/layout/CardsContainer";
+import Event from "./components/pages/Event";
+import Home from "./components/pages/Home";
+// import { Row } from "react-bootstrap";
 
 function App() {
     return (
         <div className="App">
             <Header></Header>
-            <Banner></Banner>
-            <CardsContainer
-                hasIcons={true}
-                title="Ações perto de você esse mês"
-            ></CardsContainer>
-            <CardsContainer
-                hasIcons={false}
-                title="Encontre ações solidárias de acordo com a sua causa"
-            ></CardsContainer>
+            <BrowserRouter>
+                <Switch>
+                    <Route exact path="/" component={Home}></Route>
+                    <Route exact path="/event" component={Event}></Route>
+                </Switch>
+            </BrowserRouter>
         </div>
     );
 }
