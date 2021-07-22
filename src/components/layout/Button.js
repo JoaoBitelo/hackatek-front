@@ -8,6 +8,8 @@ function ButtonGeneric(props) {
                 color: "white",
                 backgroundColor: "#A992C5",
                 borderWidth: 0,
+                minWidth: 170,
+                minHeight: 40,
             }}
         >
             {props.text}

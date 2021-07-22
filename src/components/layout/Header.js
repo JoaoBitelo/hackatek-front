@@ -14,25 +14,46 @@ import { Button } from "react-bootstrap";
 function Header() {
     return (
         <Navbar bg="light" expand="lg">
-            <Container style={{justifyContent: "space-around"}}>
-                <Navbar.Brand href="#home" style={{flex: 1, justifyContent: "center", paddingLeft: 14}}>
+            <Container
+                style={{
+                    justifyContent: "space-around",
+                    alignItems: "baseline",
+                }}
+            >
+                <Navbar.Brand
+                    href="#home"
+                    style={{
+                        flex: 1,
+                        justifyContent: "center",
+                        paddingLeft: 14,
+                    }}
+                >
                     <Image roundedCircle src={image} />
                 </Navbar.Brand>
 
-                <Nav className="me-auto" style={{flex: 2, justifyContent: "center"}}>
+                <Nav
+                    className="me-auto"
+                    style={{ flex: 2, justifyContent: "center" }}
+                >
                     <InputGroup>
                         <FormControl
                             placeholder="Pesquisar eventos e ações solidárias"
                             aria-describedby="basic-addon2"
                             style={{
-                                borderWidth: 1,
+                                borderWidth: 2,
                                 borderColor: "#A992C5",
                             }}
                         />
                     </InputGroup>
                 </Nav>
 
-                <Nav className="me-auto" style={{flex: 2, justifyContent: "center", alignItems: "baseline"}}>
+                <Nav
+                    style={{
+                        flex: 2,
+                        justifyContent: "center",
+                        alignItems: "baseline",
+                    }}
+                >
                     <i
                         class="fas fa-map-marker-alt fa-2x"
                         style={{
@@ -54,10 +75,15 @@ function Header() {
                     </p>
                 </Nav>
 
-                <Nav className="me-auto" style={{flex: 1, justifyContent: "center"}}>
-                    <Button size="lg" variant="primary">
-                        Cadastre-se
-                    </Button>
+                <Nav
+                    className="me-auto"
+                    style={{ flex: 1, justifyContent: "center" }}
+                >
+                    <ButtonGeneric
+                        size="lg"
+                        variant="primary"
+                        text={"CADASTRE-SE"}
+                    />
                 </Nav>
             </Container>
         </Navbar>
