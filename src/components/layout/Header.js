@@ -14,12 +14,12 @@ import { Button } from "react-bootstrap";
 function Header() {
     return (
         <Navbar bg="light" expand="lg">
-            <Container>
-                <Navbar.Brand href="#home">
+            <Container style={{justifyContent: "space-around"}}>
+                <Navbar.Brand href="#home" style={{flex: 1, justifyContent: "center", paddingLeft: 14}}>
                     <Image roundedCircle src={image} />
                 </Navbar.Brand>
 
-                <Nav className="me-auto">
+                <Nav className="me-auto" style={{flex: 2, justifyContent: "center"}}>
                     <InputGroup>
                         <FormControl
                             placeholder="Pesquisar eventos e ações solidárias"
@@ -32,13 +32,13 @@ function Header() {
                     </InputGroup>
                 </Nav>
 
-                <Nav className="me-auto">
+                <Nav className="me-auto" style={{flex: 2, justifyContent: "center", alignItems: "baseline"}}>
                     <i
                         class="fas fa-map-marker-alt fa-2x"
                         style={{
                             color: "#A992C5",
-
-                            paddingRight: 10,
+                            paddingRight: 15,
+                            fontSize: "1.3rem",
                         }}
                     ></i>
 
@@ -54,7 +54,7 @@ function Header() {
                     </p>
                 </Nav>
 
-                <Nav className="me-auto">
+                <Nav className="me-auto" style={{flex: 1, justifyContent: "center"}}>
                     <Button size="lg" variant="primary">
                         Cadastre-se
                     </Button>
