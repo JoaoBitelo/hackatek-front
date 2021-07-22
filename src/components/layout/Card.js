@@ -6,8 +6,8 @@ function CardEvent(props) {
     const hasIcons = props.hasIcons;
     const item = props.item;
     return (
-        <Card style={{ width: "14rem" }}>
-            <Card.Img variant="top" src={item.image} />
+        <Card style={{ width: "14rem", minHeight: "14rem", marginTop: 50}}>
+            <Card.Img variant="top" src={item.image} style={{height: "8rem"}} />
             <Card.Body>
                 <Card.Title>{item.name}</Card.Title>
                 <Card.Text>
