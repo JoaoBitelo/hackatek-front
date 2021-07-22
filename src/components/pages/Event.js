@@ -10,13 +10,7 @@ function Event(props) {
             <BannerEvent></BannerEvent>
             <Container>
                 <Row>
-                    <Col>
-                        <ButtonGeneric
-                            size="lg"
-                            variant="primary"
-                            text={"QUERO ME INSCREVER!"}
-                        />
-                    </Col>
+                    <Col></Col>
                 </Row>
                 <Row>
                     <Col>

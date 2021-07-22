@@ -6,7 +6,9 @@ import {
     Row,
     Col,
     Breadcrumb,
+    Card,
 } from "react-bootstrap";
+import ButtonGeneric from "./Button";
 
 function BannerEvent() {
     return (
@@ -32,7 +34,38 @@ function BannerEvent() {
                             ></Image>
                         </div>
                     </Col>
-                    <Col></Col>
+                    <Col>
+                        <div className="description-container">
+                            <Card
+                                style={{
+                                    width: "40rem",
+                                    backgroundColor: "#F4A4B3",
+                                    opacity: 0.9,
+                                }}
+                            >
+                                <Card.Body>
+                                    <Card.Text>
+                                        A Secretaria Estadual da Saúde do Rio
+                                        Grande do Sul (SES/RS) abriu um canal
+                                        para cadastro de voluntários em
+                                        atividades de enfretamento à pandemia do
+                                        coronavírus no Estado. São oferecidas
+                                        possibilidades de voluntariado a
+                                        profissionais da sáude e de outras
+                                        categorias profissionais.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <div className="button-container">
+                                <ButtonGeneric
+                                    size="lg"
+                                    variant="primary"
+                                    text={"QUERO ME INSCREVER!"}
+                                    className="button"
+                                />
+                            </div>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </Jumbotron>

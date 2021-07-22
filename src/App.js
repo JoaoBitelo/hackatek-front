@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/layout/Header";
 import Event from "./components/pages/Event";
 import Home from "./components/pages/Home";
-// import { Row } from "react-bootstrap";
 
 function App() {
     return (

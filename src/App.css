@@ -20,6 +20,18 @@
     margin-top: 3em;
 }
 
+.description-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    flex-direction: column;
+}
+
+.button-container {
+    margin-top: 3em;
+}
+
 .events-container h4 {
     margin-top: 2em;
 }
