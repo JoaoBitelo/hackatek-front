@@ -4,12 +4,12 @@ import image from "../../content/images/Rectangle 5.png";
 
 function CardEvent(props) {
     const hasIcons = props.hasIcons;
-    console.log("item", props.item);
+    const item = props.item;
     return (
         <Card style={{ width: "14rem" }}>
-            <Card.Img variant="top" src={image} />
+            <Card.Img variant="top" src={item.image} />
             <Card.Body>
-                <Card.Title>{props.item.name}</Card.Title>
+                <Card.Title>{item.name}</Card.Title>
                 <Card.Text>
                     {hasIcons && (
                         <div className="icons">

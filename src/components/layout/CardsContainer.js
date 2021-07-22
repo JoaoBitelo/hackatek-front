@@ -5,8 +5,20 @@ import CardEvent from "./Card";
 const limitToReturn = 4;
 
 const fetchData = async (hasIcons) => {
-    const res = await fetch("http://localhost:3000/event?_limit=" + limitToReturn);
-    return res.json();
+    var url = "http://localhost:3000/";
+    if (hasIcons) {
+        url = url + "events";
+    } else {
+        url = url + "filters/1";
+    }
+    var res = await fetch(url + "?_limit=" + limitToReturn);
+
+    res = await res.json();
+    if (!hasIcons) {
+        res = res.content;
+        res = res.slice([0], [limitToReturn]);
+    }
+    return res;
 };
 
 function CardsContainer(props) {

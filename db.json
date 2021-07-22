@@ -1,27 +1,81 @@
 {
-    "Filter": {
-        "activity": [
-            "COVID-19",
-            "Campanha do agasalho",
-            "Mundo",
-            "Crianças e Adolescentes",
-            "Favela",
-            "Periferias",
-            "Arrecadação de Alimentos"
-        ],
-        "group": [
-            "Diversos",
-            "Profissionais da sáude",
-            "Governo Estadual",
-            "Governo Federal",
-            "Jovens",
-            "Food Fighters",
-            "ONG",
-            "Religião",
-            "Umbanda"
-        ]
-    },
-    "event": [
+    "filters": [
+        {
+            "id": "1",
+            "content": [
+                {
+                    "name": "COVID-19",
+                    "image": "https://www.paho.org/sites/default/files/styles/flexslider_full/public/banner-covid-19-1280x549.jpg?h=0f7a3278&itok=nrTaMkjD"
+                },
+                {
+                    "name": "Campanha do agasalho",
+                    "image": "data:image/jpeg;base64,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"
+                },
+                {
+                    "name": "Mundo",
+                    "image": "https://www.paulista.pe.gov.br/site/app/webroot/files/arquivos/051220181008580000000.jpg"
+                },
+                {
+                    "name": "Crianças e Adolescentes",
+                    "image": "https://institutoreacao.org.br/wp-content/uploads/2020/12/Como-ensinar-e-estimular-a-solidariedade-nas-criancas.jpg"
+                },
+                {
+                    "name": "Arrecadação de Alimentos",
+                    "image": "https://www.sspds.ce.gov.br/wp-content/uploads/sites/24/2020/04/Texto-Pol%C3%ADcia-Civil-lan%C3%A7a-campanha-beneficente-Alimente-uma-Vida-para-arrecada%C3%A7%C3%A3o-de-alimentos-n%C3%A3o-perec%C3%ADveis-600x750.jpeg"
+                },
+                {
+                    "name": "Periferias",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWO-R6frOZV241vZ2P9jJ76ObL2jZFF7cuQw&usqp=CAU"
+                },
+                {
+                    "name": "Favela",
+                    "image": "https://www.cartacapital.com.br/wp-content/uploads/2021/02/seupaiscovid-1-1199x720.jpg"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "content": [
+                {
+                    "name": "Diversos",
+                    "image": ""
+                },
+                {
+                    "name": "Profissionais da saúde",
+                    "image": ""
+                },
+                {
+                    "name": "Governo Estadual",
+                    "image": ""
+                },
+                {
+                    "name": "Governo Federal",
+                    "image": ""
+                },
+                {
+                    "name": "Jovens",
+                    "image": ""
+                },
+                {
+                    "name": "Food Fighters",
+                    "image": ""
+                },
+                {
+                    "name": "ONG",
+                    "image": ""
+                },
+                {
+                    "name": "Religião",
+                    "image": ""
+                },
+                {
+                    "name": "Umbanda",
+                    "image": ""
+                }
+            ]
+        }
+    ],
+    "events": [
         {
             "id": "1",
             "name": "Reforço do atendimento à COVID-19",
